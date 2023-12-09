@@ -1,0 +1,32 @@
+.portfolio-container {
+    text-align: center;
+    background-image: url('../../background.jpg');
+    width: 100%;
+    height: 84.5vh;
+    background-size: cover;
+    position: relative;
+}
+
+.content-container {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    background: linear-gradient(rgb(0, 0, 255, 0.8), rgba(227, 246, 9, 0.8));
+    border-radius: 30px;
+    padding: 4px;
+    color: black;
+    transition: 2s;
+}
+
+.content-container:hover {
+    box-shadow: 10px 10px 30px blue;
+    transform: scale(1.2);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

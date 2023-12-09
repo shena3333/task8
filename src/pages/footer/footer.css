@@ -1,0 +1,18 @@
+.footer {
+    background-color: black;
+    margin-block-start: 0;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.element-contacts {
+    margin: 10px;
+}

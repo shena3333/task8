@@ -1,0 +1,60 @@
+.container-photo {
+        text-align: center;
+        background-image: url('../../background.jpg');
+        width: 100%;
+        height: 84.5vh;
+        background-size: cover;
+        position: relative;
+        margin-block-start: 0px;
+}
+
+.gallery {
+        font-size: 30px;
+        color: aquamarine;
+        margin-block-start: 0px;
+}
+
+.gallery-container {
+        background: rgba(0, 0, 0, 0.3);
+        width: 230px;
+        border-radius: 20px;
+        margin-block-start: 0px;
+}
+
+.foto-box {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+}
+
+.foto {
+        transition: 2s;
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+}
+
+.foto1:hover {
+        width: 270px;
+        height: 550px;
+}
+
+.foto2:hover {
+        width: 600px;
+        height: 350px;
+}
+
+.foto3:hover {
+        width: 600px;
+        height: 350px;
+}
+
+.foto4:hover {
+        width: 350px;
+        height: 500px;
+}
+
+.foto5:hover {
+        width: 600px;
+        height: 350px;
+}

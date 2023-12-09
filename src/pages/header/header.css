@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: double aquamarine;
+    border-width: 0px 0px 10px 0px;
+}
+
+.button {
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+.element-menu {
+    color: white;
+    text-decoration: none;
+}

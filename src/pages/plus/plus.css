@@ -1,0 +1,177 @@
+.dsongentom {
+    position: relative;
+    top: 43%;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    -webkit-text-stroke: 1px red;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.desetungavon {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.container-plus {
+    text-align: center;
+    background-image: url('../../background.jpg');
+    width: 100%;
+    height: 84.5vh;
+    background-size: cover;
+    position: relative;
+}
+
+.fixed-snow span::after {
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.fixed-snow span:nth-child(even)::after {
+    content: "\2744";
+}
+
+.fixed-snow span:nth-child(odd)::after {
+    content: "\2745";
+}
+
+.fixed-snow span:nth-child(1)::after {
+    font-size: 40px;
+    bottom: 4%;
+    left: 4%;
+    animation: snowzoom 2s linear infinite;
+}
+
+.fixed-snow span:nth-child(2)::after {
+    font-size: 48px;
+    bottom: 6%;
+    right: 6%;
+    animation: snowzoom 3s ease-in infinite;
+}
+
+.fixed-snow span:nth-child(3)::after {
+    font-size: 32px;
+    bottom: 10%;
+    left: 45%;
+    animation: snowzoom 4s linear infinite;
+}
+
+.fixed-snow span:nth-child(4)::after {
+    font-size: 44px;
+    bottom: 40%;
+    left: 20%;
+    animation: snowzoom 3s ease-in-out infinite;
+}
+
+.fixed-snow span:nth-child(5)::after {
+    font-size: 42px;
+    top: 16%;
+    left: 8%;
+    animation: snowzoom 3.2s ease-out infinite;
+}
+
+.fixed-snow span:nth-child(6)::after {
+    font-size: 30px;
+    top: 20%;
+    right: 8%;
+    animation: snowzoom 2.2s ease infinite;
+}
+
+.fixed-snow span:nth-child(7)::after {
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    animation: snowzoom 2.4s linear infinite;
+}
+
+.fixed-snow span:nth-child(8)::after {
+    font-size: 32px;
+    top: 26%;
+    right: 28%;
+    animation: snowzoom 1.8s ease-in-out infinite;
+}
+
+.fixed-snow span:nth-child(9)::after {
+    font-size: 42px;
+    top: 12%;
+    left: 58%;
+    animation: snowzoom 3.2s linear infinite;
+}
+
+.fixed-snow span:nth-child(10)::after {
+    font-size: 46px;
+    bottom: 30%;
+    right: 24%;
+    animation: snowzoom 2s ease infinite;
+}
+
+.fixed-snow span:nth-child(11)::after {
+    font-size: 38px;
+    bottom: 22%;
+    left: 14%;
+    animation: snowzoom 3s ease-in infinite;
+}
+
+.fixed-snow span:nth-child(12)::after {
+    font-size: 28px;
+    bottom: 28%;
+    left: 40%;
+    animation: snowzoom 2.8s ease-out infinite;
+}
+
+.fixed-snow span:nth-child(13)::after {
+    font-size: 22px;
+    top: 24%;
+    left: 20%;
+    animation: snowzoom 2.4s ease infinite;
+}
+
+.fixed-snow span:nth-child(14)::after {
+    font-size: 42px;
+    top: 30%;
+    left: 38%;
+    animation: snowzoom 2.4s ease-in infinite;
+}
+
+@keyframes snowzoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
